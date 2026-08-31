@@ -1,0 +1,86 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+h1 {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+.input {
+  height: 45px;
+  text-align: justify;
+  width: 250px;
+  border-radius: 30px;
+  padding-left: 15px;
+  background-color: azure;
+  border: none;
+}
+.input:focus,
+textarea:focus {
+  width: 260px;
+  outline: none;
+}
+textarea {
+  height: 100px;
+  width: 250px;
+  padding-left: 15px;
+  border-radius: 30px;
+  background-color: azure;
+  border: none;
+  padding-top: 10px;
+}
+/* .button {
+  width: 120px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 40px;
+} */
+.button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  background: blue;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* button i {
+  margin-right: 8px;
+  background-color: #007bff;
+} */
+.button:hover {
+  background-color: blueviolet;
+  transition: 0.3s;
+}
+/* button i :hover {
+  background-color: blueviolet;
+  color: blue;
+} */
+button i {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.3s;
+  background-color: blue;
+}
+
+button:hover i {
+  background-color: blueviolet;
+  color: blue;
+}

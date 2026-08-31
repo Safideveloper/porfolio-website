@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+      .countunir {
+        width: 900px;
+        height: 100vh;
+        border: 1px solid aquamarine;
+        margin: auto;
+        margin-top: 0px;
+        background-color: antiquewhite;
+        position: relative;
+      }
+      h1 {
+        font-style: italic;
+        text-transform: capitalize;
+        margin: 10px;
+        margin-left: 200px;
+        position: fixed;
+      }
+      .nav {
+        border: 1px solid;
+        width: 600px;
+        height: 100px;
+        position: relative;
+        top: 100px;
+        left: 30%;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-around;
+        /* justify-items: center; */
+
+        margin-bottom: auto;
+        padding: 0px;
+      }
+
+      li {
+        display: inline-block;
+        border: 1px solid #eb84ce;
+        width: 90px;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: #eb84ce;
+        border-radius: 10px;
+      }
+      li:hover {
+        box-shadow: 2px 2px 1px;
+        transition: 0.1 sec;
+      }
+
+      a {
+        color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="countunir">
+      <h1>welcome to my portfolio website</h1>
+      <div class="nav">
+        <ul>
+          <li>
+            <a href="#about"> <i class="fa-solid fa-user"></i> About Me </a>
+          </li>
+
+          <li>
+            <a href="#skills"> <i class="fa-solid fa-code"></i> Skills </a>
+          </li>
+
+          <li>
+            <a href="#projects">
+              <i class="fa-solid fa-laptop-code"></i> Projects
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

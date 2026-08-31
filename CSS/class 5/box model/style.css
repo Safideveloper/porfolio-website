@@ -1,0 +1,42 @@
+.class {
+  /* boder */
+  border: 1px solid;
+  /* border-bottom: 10px solid; */
+  /* border-top: 10px solid; */
+  /* border-right: 10px solid; */
+  /* border-left: 10px solid; */
+  border-style: dotted;
+  border-color: blue;
+  /* padding */
+  /* padding-bottom: 100px;
+  padding-top: 109px;
+  padding-right: 108px;
+  padding-left: 107px; */
+  /* padding: 10px 20px;
+   */
+  /* padding: 20px; */
+  padding: 1px 1px 1px 1px;
+
+  /* margin */
+  /* margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px; */
+  /* margin: 10px 10px 10px 10px; */
+  /* margin: 20px 20px; */
+  margin: 5px;
+}
+.cirle {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.mobile {
+  border: 2px solid;
+  width: 100px;
+  height: 100px;
+  /* max-width: 50px; */
+  /* min-width: 11; */
+  /* min-height: auto; */
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .count {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
+      .grid {
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+      }
+      @media (min-width: 426px) {
+        .count {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      @media (min-width: 701px) {
+        .count {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (min-width: 1001px) {
+        .count {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="count">
+      <div class="grid_item1 grid"></div>
+      <div class="grid_item2 grid"></div>
+      <div class="grid_item3 grid"></div>
+      <div class="grid_item4 grid"></div>
+      <div class="grid_item5 grid"></div>
+      <div class="grid_item6 grid"></div>
+      <div class="grid_item7 grid"></div>
+      <div class="grid_item8 grid"></div>
+      <div class="grid_item9 grid"></div>
+      <div class="grid_item10 grid"></div>
+    </div>
+  </body>
+</html>
